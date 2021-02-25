@@ -1,0 +1,8 @@
+@media (max-width: 1600px) and (min-width: 1000px) {
+  .leaves {
+    left: -3rem;
+  }
+  .leaves.two {
+    left: -5rem;
+  }
+}
