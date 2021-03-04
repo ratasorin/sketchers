@@ -56,7 +56,6 @@ h1.shoes {
   position: absolute;
   top: -1rem;
   left: 10rem;
-  z-index: 100;
 }
 .leaves img {
   z-index: 100;
@@ -111,6 +110,7 @@ h1.shoes {
   right: var(--sketcher-right);
   z-index: 101;
   width: 60rem;
+  height: 31rem;
 }
 img.sketcher {
   cursor: pointer;
@@ -121,6 +121,10 @@ img.sketcher {
 }
 img.sketcher.copy {
   position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  touch-action: none;
+  user-select: none;
   z-index: 101;
   width: 100px;
 }

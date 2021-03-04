@@ -10,6 +10,15 @@
     z-index: 101;
     width: 35rem;
   }
+
+  .leaves img {
+    width: 90rem;
+  }
+  .leaves.two {
+    position: absolute;
+    z-index: 100;
+    left: 10rem;
+  }
   img.sketcher {
     cursor: pointer;
     position: absolute;
